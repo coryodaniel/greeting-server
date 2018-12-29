@@ -2,7 +2,7 @@
 
 A greeting server for demoing [Bonny](https://github.com/coryodaniel/bonny), a Kubernetes Operator SDK written in Elixir.
 
-[Docker Image](https://quay.io/bonny/greeting-server)
+[Docker Image](https://quay.io/coryodaniel/greeting-server)
 
 ## Usage
 
