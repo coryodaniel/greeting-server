@@ -1,10 +1,8 @@
-# hello-world
+# greeting-server
 
-A hello world server for demoing the Bonny hello-world-operator.
+A greeting server for demoing [Bonny](https://github.com/coryodaniel/bonny), a Kubernetes Operator SDK written in Elixir.
 
-[Bonny](https://github.com/coryodaniel/bonny) is a Kubernetes Operator SDK written in Elixir.
-
-[Docker Image](https://quay.io/coryodaniel/hello-world)
+[Docker Image](https://quay.io/bonny/greeting-server)
 
 ## Usage
 
@@ -17,7 +15,7 @@ go test && go build
 Using the default greeting:
 
 ```shell
-./hello-world
+./greeting-server
 ```
 
 * http://localhost:5000/greeting/ - Hello, World
@@ -26,7 +24,7 @@ Using the default greeting:
 Change the greeting:
 
 ```shell
-GREETING="Hola" ./hello-world
+GREETING="Hola" ./greeting-server
 ```
 
 * http://localhost:5000/greeting/ - Hola, World

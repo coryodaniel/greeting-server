@@ -18,7 +18,7 @@ func init() {
 
 func main() {
 	server := NewGreetingServer()
-	log.Infof("Starting hello-world server on port: %d", port)
+	log.Infof("Starting greeting-server on port: %d", port)
 	addr := fmt.Sprintf(":%d", port)
 	if err := http.ListenAndServe(addr, server); err != nil {
 		log.Fatalf("could not listen on port %d %v", port, err)

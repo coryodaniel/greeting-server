@@ -3,4 +3,4 @@ RUN mkdir /app
 ADD . /app/
 WORKDIR /app
 RUN go build
-CMD ["/app/hello-world"]
+CMD ["/app/greeting-server"]

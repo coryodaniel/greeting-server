@@ -1,6 +1,6 @@
 .PHONY: run go.build docker.build docker.push docker.shell clean
 
-BIN_NAME=hello-world
+BIN_NAME=greeting-server
 IMAGE_NAME=coryodaniel/${BIN_NAME}
 IMAGE_URL=quay.io/${IMAGE_NAME}
 CONTAINER_NAME=${BIN_NAME}-dbg
